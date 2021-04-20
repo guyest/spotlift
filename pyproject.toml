@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "spotlift"
+version = "0.1.0"
+description = "Give Spotify a facelift. Tooling to automatically generate immaculate Spotify playlists, tuned by custom parameters."
+authors = ["Guy Marcus <guygma@fastmail.com>, Brandon Spiegel <bpspieg@umich.edu>"]
+license = "GPLv3"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+bs4 = "^0.0.1"
+requests = "^2.25.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
